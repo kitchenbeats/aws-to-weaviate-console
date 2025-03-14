@@ -1,0 +1,14 @@
+{
+  "python.analysis.extraPaths": ["${workspaceFolder}"],
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnknownMemberType": "none",
+    "reportUnknownParameterType": "none",
+    "reportUnknownVariableType": "none"
+  },
+  "files.exclude": {
+    "**/venv": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true
+  },
+  "python.analysis.typeCheckingMode": "basic"
+}
